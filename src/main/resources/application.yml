@@ -44,4 +44,15 @@ spring:
 mybatis:
   #用于读取Mapper.xml文件的配置路径
   mapper-locations: classpath:mybatis/mappers/*.xml
-  type-aliases-package: com.baidu.pojo
+  #type-aliases-package: com.baidu.pojo
+
+person:
+  name: 张三
+  age: 16
+  happy: true
+  date: 2020/10/05
+  maps: {k1: v1,k2: v2,k3: V3}
+  lists: [0,1,2,3,4,5]
+  dog:
+    name: 旺财
+    age: 1

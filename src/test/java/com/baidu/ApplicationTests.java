@@ -2,6 +2,7 @@ package com.baidu;
 
 import com.baidu.dao.UserMapper;
 import com.baidu.pojo.Dog;
+import com.baidu.pojo.Person;
 import com.baidu.pojo.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,9 +18,8 @@ class ApplicationTests {
 	 */
 	@Autowired
 	private UserMapper userMapper;
-
 	@Autowired
-	private Dog dog;
+	private Person person;
 	@Test
 	void contextLoads() {
 
@@ -29,8 +29,8 @@ class ApplicationTests {
 
 	@Test
 	void contextLoads1() {
-
-		System.out.println(dog);
+		
+		System.out.println(person);
 
 	}
 }
